@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.container{
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container h1{
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
